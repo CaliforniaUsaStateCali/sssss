@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="UTF-8">
+	<meta name="vewport" content="width-device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Poiret+One&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="Style/index.css">
+	<link rel="stylesheet" type="text/css" href="Style/normalize.css">
+
+</head>
+<body>
+
+		<div class="counteiner">	
+			<header class="header-box">
+				<div class="img-link">
+					<div class="logo">
+						<img src="Img/Logo.svg">
+							</div>
+			
+
+		<nav class="link">
+			<a href="#" class="link-novigation links">Потрфолио</a>
+				<a href="#" class="link-novigation links">Цены</a>
+					<a href="#" class="link-novigation links">Обо мне</a>
+						<a href="#" class="link-novigation links">Контакты</a>
+							</nav>
+								</div>
+
+				<div class="boxName-city">
+					<div class="box-name">
+						<div class="name-author">
+							<h1 class="title-name">Дмитрий Головач	</h1>
+								</div>
+				<div class="city-author">
+					<p class="city-name">фотограф, Москва</p>
+						</div>
+							</div>
+				<div class="social-links">
+					<div class="box-line">
+						<hr class="line">
+							</div><br>
+				<div class="box-social">
+					<a href="#" class="link-social links">WhatsApp</a></div>
+						<div class="box-social">
+							<a href="#" class="link-social links">Instagram</a></div>
+								<div class="box-social">
+									<a href="#" class="link-social links">VKontakte </a></div><br><br>
+										<div class="box-line">
+											<hr class="line">
+										</div>
+									</div>
+								</div>
+							</div>
+			</header>
+
+		</div>
+
+
+	
+
+
+
+
+
+
+
+
+
+
+ 			<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+
+		
+
+						<script type="text/javascript">
+				$(document).ready(function(){
+  
+  $("nav").on("click","a", function (event) {
+        event.preventDefault();
+        var id  = $(this).attr('href'),
+        top = $(id).offset().top;
+        $('body,html').animate({scrollTop: top}, 1500, 'swing');     
+   });
+});
+			</script>
+
+
+</body>
+</html>
